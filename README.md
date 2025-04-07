@@ -1,6 +1,6 @@
-# Feedback Collector App
+# Feedback Collector
 
-A clean and interactive feedback submission application built with **Next.js (App Router)**, **Framer Motion**, and **Tailwind CSS**. Users can submit feedback, view all submissions with search and sort functionalities, and toggle between light and dark mode.
+A clean and interactive feedback submission application built with **Next.js (App Router)**, **Framer Motion**, and **Tailwind CSS**. Users can submit feedback, view all submissions and toggle between light and dark mode.
 
 ## 🔥 Features
 
