@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Feedback Collector App
 
-## Getting Started
+A clean and interactive feedback submission application built with **Next.js (App Router)**, **Framer Motion**, and **Tailwind CSS**. Users can submit feedback, view all submissions with search and sort functionalities, and toggle between light and dark mode.
 
-First, run the development server:
+## 🔥 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- 🌗 Dark/Light Mode Toggle
+- ✅ Email Validation and Form Validation
+- 📬 Submit Feedback via API
+- 🔄 View Submitted Feedbacks
+- ⚡ Framer Motion for smooth transitions
+- 🧠 Responsive UI with Tailwind CSS
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Frontend:** React (Next.js with App Router), Tailwind CSS, Framer Motion
+- **Backend:** Supabase
+- **Icons:** Lucide React
+- **HTTP Client:** Axios
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📁 Folder Structure
+/feedback-app/
+├── app/
+│   └── page.jsx            # Main page for feedback form and viewer
+├── public/                 
+├── styles/                 
+├── api/
+│   ├── submit-feedback.js  # API route to handle feedback submission
+│   └── feedbacks.js        # API route to fetch all feedback
+├── package.json
+├── .env.local              
+├── tailwind.config.js
+├── postcss.config.js
+└── next.config.js
 
-## Learn More
+## 🚀 Deploy to Netlify:
 
-To learn more about Next.js, take a look at the following resources:
+Go to Netlify and log in.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Click "Add new site" → "Import an existing project".
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Connect your GitHub repo (or drag and drop).
 
-## Deploy on Vercel
+Build Command: npm run build
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Publish directory: out
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Click "Deploy Site".
+
+## 📃 License
+This project is licensed under the MIT License.
+
+Made with ❤️ by Ayush Rai
