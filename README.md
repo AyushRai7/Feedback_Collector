@@ -19,19 +19,19 @@ A clean and interactive feedback submission application built with **Next.js (Ap
 - **HTTP Client:** Axios
 
 ## 📁 Folder Structure
-/feedback-app/
-├── app/
-│   └── page.jsx            # Main page for feedback form and viewer
-├── public/                 
-├── styles/                 
-├── api/
-│   ├── submit-feedback.js  # API route to handle feedback submission
-│   └── feedbacks.js        # API route to fetch all feedback
-├── package.json
-├── .env.local              
-├── tailwind.config.js
-├── postcss.config.js
-└── next.config.js
+- /feedback-app/
+- ├── app/
+- │   └── page.jsx            # Main page for feedback form and viewer
+- ├── public/                 
+- ├── styles/                 
+- ├── api/
+- │   ├── submit-feedback.js  # API route to handle feedback submission
+- │   └── feedbacks.js        # API route to fetch all feedback
+- ├── package.json
+- ├── .env.local              
+- ├── tailwind.config.js
+- ├── postcss.config.js
+- └── next.config.js
 
 ## 🚀 Deploy to Netlify:
 
